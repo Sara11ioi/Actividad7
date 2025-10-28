@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(247, 231, 216);
+}
+header{
+        width: 1920px;
+        height: 310px;
+        overflow: hidden;
+        background-image: url(img/portada.png);
+        background-blend-mode: overlay;
+                background-color: rgb(238, 214, 182);
+        position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+h1{
+        text-align: center;
+        font-size: 120px;
+        color: rgb(186, 106, 52);
+        font-family:"Faculty Glyphic", sans-serif;
+        position: relative;
+            z-index: 2;
+
+}
+
+h2{
+        text-align: center;
+        font-size: 50px;
+       color: rgb(185, 100, 58);
+       font-family:"Faculty Glyphic", sans-serif;
+       margin-top: 80px;
+       margin-bottom: 20px;
+}
+
+h3{
+font-family: "Comfortaa", sans-serif;
+      text-align: center;
+      font-size: 25px;
+      color: rgb(52, 42, 35);
+}
+h4{
+font-family: "Comfortaa", sans-serif;
+      text-align: center;
+      font-size: 16px;
+      color: rgb(52, 42, 35);
+}
+
+footer{
+    font-family: "Spectral", serif;
+      text-align: center;
+      font-size: 16px;
+              width: 1920px;
+        height: 250px;
+      color: rgb(245, 239, 234);
+      background-color: rgb(140, 75, 42);
+}
+
+div{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu{
+    background-color: rgb(140, 75, 42);
+            color: rgb(240, 237, 227);
+            overflow: hidden;
+            width: 1920px;
+            height: 60px;
+            position: sticky;
+            top: 0;
+            left: 0;
+                font-size: 30px;
+         
+                    
+}
+
+img{
+    border-radius: 22px 22px 22px 22px;
+-webkit-border-radius: 22px 22px 22px 22px;
+-moz-border-radius: 22px 22px 22px 22px;
+border: 0px solid #bb682e;
+        
+}
+a{
+    text-decoration: none;
+    color: #e46b2e;
+font-family: "Comfortaa", sans-serif;
+        font-size: 20px;
+}
+
